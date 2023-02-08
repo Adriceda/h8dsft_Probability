@@ -31,3 +31,4 @@ while trial < trials:
 print('TRIAL = ', trial)
 print('HEADS = ', heads)
 print('TAILS = ', tails)
+print("%.2f%%" % ((heads/trial)*100))
